@@ -23,6 +23,7 @@ def words_query(queries_list: list):
 words_query(search_queries)
 
 
+
 """ The code above may be modified taking into account that articles and in some cases prepositions \
     may be not considered as fully valid words. So they can distort the found distribution.
     Below is a solution for deleting articles. Due to the described modification, the output is \

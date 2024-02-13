@@ -19,7 +19,7 @@ def date_diff(date1, date2):
             return abs((d2 - d1).days)
         
         except ValueError:
-            print("Only numbers are allowed. Please try again")
+            print("Only numbers are allowed")
             break
 
 print(date_diff(date_test1, date_test2))
